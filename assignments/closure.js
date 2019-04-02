@@ -1,5 +1,14 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
+function Fruit(){
+  var taste = 'I am tasty'
+  console.log(`I am ${taste}`)
+  function Orange(){
+  console.log(`i am ${taste}`)
+  }
+  Orange();
+}
+Fruit();
 
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
